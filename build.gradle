@@ -31,6 +31,7 @@ dependencies {
     compile files('src/main/libs/commons-codec.jar')
     compile files('src/main/libs/commons-lang3-3.0-beta.jar')
     compile files('src/main/libs/httpcore-4.2.4.jar')
+    compile files('src/main/libs/alibaba.jar')
 }
 
 android {

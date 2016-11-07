@@ -1,9 +1,5 @@
 package com.example.a123.myapplication;
 
-import org.xmlpull.v1.XmlPullParser;
-
-import android.util.Xml;
-
 public interface ConstantValue {
 	// class :public static final
 	String ENCONDING="UTF-8";
@@ -36,7 +32,12 @@ public interface ConstantValue {
 	 */
 	String LOTTERY_URI = "http://10.0.2.2:8080/ZCWService/Entrance";// 10.0.2.2模拟器如果需要跟PC机通信127.0.0.1
 	// String LOTTERY_URI = "http://192.168.1.100:8080/ZCWService/Entrance";// 10.0.2.2模拟器如果需要跟PC机通信127.0.0.1
-	
+	String COMMON="http://10.0.2.2:8080/ZCWService/Entrance";
+
+	String HELP="/help";
+
+	//检查服务器返回数据错误
+	String ERROR="error";
 	/**
 	XmlPullParser parser = Xml.newPullParser();
 			try {
